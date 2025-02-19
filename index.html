@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maldives Honeymoon Resorts | Luxury Paradise Getaways</title>
     <meta name="description" content="Discover luxury Maldives honeymoon resorts. Experience paradise with premium accommodations and romantic experiences.">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,16 +21,26 @@
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex justify-between items-center">
-                <div class="text-2xl font-bold text-blue-600">MaldivesMood</div>
+                <a href="https://Florekus.github.io/maldives-honeymoon-resorts-2025-02-19-wdbpw" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition duration-300">MaldivesMood</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-blue-600 transition duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600">
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#features" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Features</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">About Us</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Contact</a>
             </div>
         </nav>
     </header>
@@ -33,10 +51,10 @@
         <div class="absolute inset-0 bg-black/40 z-10"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">Maldives Honeymoon Resorts</h1>
-                <p class="text-xl md:text-2xl text-white/90 mb-8">Your Dream Holiday Awaits in Paradise</p>
-                <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300">
-                    Explore Resorts
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">Experience Paradise in the Maldives</h1>
+                <p class="text-xl md:text-2xl text-white/90 mb-8">Create unforgettable memories in our world-class honeymoon resorts</p>
+                <a href="#contact" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-xl">
+                    Start Planning Your Dream Getaway
                 </a>
             </div>
         </div>
@@ -45,22 +63,22 @@
     <!-- Features Section -->
     <section id="features" class="py-24 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Resort Features</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">World-Class Resort Features</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
                     <i class="fas fa-hotel text-3xl text-blue-600 mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-4">Luxury Accommodations</h3>
-                    <p class="text-gray-600">Experience world-class comfort in our premium overwater villas.</p>
+                    <h3 class="text-xl font-semibold mb-4">Overwater Villas</h3>
+                    <p class="text-gray-600">Luxurious private villas suspended above crystal-clear waters, featuring glass floors and private infinity pools.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
-                    <i class="fas fa-heart text-3xl text-blue-600 mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-4">Adults-only Resorts</h3>
-                    <p class="text-gray-600">Intimate settings perfect for romantic getaways.</p>
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
+                    <i class="fas fa-utensils text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4">Gourmet Dining</h3>
+                    <p class="text-gray-600">World-class restaurants offering international cuisine, romantic beachside dining, and 24/7 personal chef service.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
-                    <i class="fas fa-tag text-3xl text-blue-600 mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-4">Affordable Luxury</h3>
-                    <p class="text-gray-600">Premium experiences at competitive prices.</p>
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
+                    <i class="fas fa-spa text-3xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4">Luxury Spa</h3>
+                    <p class="text-gray-600">Rejuvenating couples' treatments, traditional Maldivian therapies, and overwater massage pavilions.</p>
                 </div>
             </div>
         </div>
@@ -69,21 +87,85 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Exclusive Benefits</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div class="flex flex-col items-start">
+                <div class="flex flex-col items-start transform hover:scale-102 transition duration-300">
                     <div class="bg-blue-100 rounded-full p-3 mb-4">
                         <i class="fas fa-star text-blue-600 text-xl"></i>
                     </div>
-                    <h3 class="text-2xl font-semibold mb-4">Luxurious Accommodations</h3>
-                    <p class="text-gray-600 leading-relaxed">Indulge in spacious villas with private pools and stunning ocean views.</p>
+                    <h3 class="text-2xl font-semibold mb-4">VIP Airport Transfer</h3>
+                    <p class="text-gray-600 leading-relaxed">Seamless luxury seaplane transfers with private lounge access and dedicated concierge service.</p>
                 </div>
-                <div class="flex flex-col items-start">
+                <div class="flex flex-col items-start transform hover:scale-102 transition duration-300">
                     <div class="bg-blue-100 rounded-full p-3 mb-4">
                         <i class="fas fa-heart text-blue-600 text-xl"></i>
                     </div>
-                    <h3 class="text-2xl font-semibold mb-4">Tailored Romantic Experiences</h3>
-                    <p class="text-gray-600 leading-relaxed">Customized packages for the perfect honeymoon experience.</p>
+                    <h3 class="text-2xl font-semibold mb-4">Romantic Experiences</h3>
+                    <p class="text-gray-600 leading-relaxed">Private sunset cruises, candlelit beach dinners, and couples' spa treatments included.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About MaldivesMood</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 leading-relaxed">
+                    Founded in 2015 by passionate travel enthusiasts, MaldivesMood has grown from a small boutique agency to the Maldives' premier luxury honeymoon specialist. Our journey began with a simple vision: to create perfect romantic getaways in paradise.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Our mission is to deliver unforgettable honeymoon experiences through personalized service, exclusive resort partnerships, and attention to every detail. We believe in sustainable luxury and work only with resorts that share our commitment to environmental preservation and local community support.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Guest Experiences</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The overwater villa exceeded all our expectations. The private pool and direct ocean access made our honeymoon absolutely magical. The staff went above and beyond to make every moment special."</p>
+                    <p class="font-semibold">Sarah & James Thompson</p>
+                    <p class="text-sm text-gray-500">Honeymooners from London</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Best travel investment we've ever made. The sunset dinner cruise and couples spa day were highlights of our stay. Worth every penny!"</p>
+                    <p class="font-semibold">Michael & Lisa Chen</p>
+                    <p class="text-sm text-gray-500">Anniversary Celebration</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The personalized service and attention to detail was incredible. From the moment we landed until departure, everything was perfectly orchestrated."</p>
+                    <p class="font-semibold">David & Emma Rodriguez</p>
+                    <p class="text-sm text-gray-500">Luxury Travel Enthusiasts</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The underwater restaurant and house reef snorkeling were unforgettable experiences. MaldivesMood created the perfect blend of luxury and adventure."</p>
+                    <p class="font-semibold">Anna & Tom Wilson</p>
+                    <p class="text-sm text-gray-500">Adventure Seekers</p>
                 </div>
             </div>
         </div>
@@ -94,19 +176,58 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg">
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition duration-300">
                     <button class="w-full text-left px-6 py-4 focus:outline-none">
                         <div class="flex justify-between items-center">
-                            <span class="font-semibold">When is the best time to visit Maldives?</span>
+                            <span class="font-semibold">When is the best time to visit the Maldives?</span>
                             <i class="fas fa-plus text-blue-600"></i>
+                        </div>
+                        <div class="mt-2 text-gray-600 hidden">
+                            The peak season is from December to April, offering perfect weather with minimal rainfall and optimal conditions for water activities.
                         </div>
                     </button>
                 </div>
-                <div class="border border-gray-200 rounded-lg">
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition duration-300">
                     <button class="w-full text-left px-6 py-4 focus:outline-none">
                         <div class="flex justify-between items-center">
-                            <span class="font-semibold">What's included in the honeymoon package?</span>
+                            <span class="font-semibold">What's included in the honeymoon packages?</span>
                             <i class="fas fa-plus text-blue-600"></i>
+                        </div>
+                        <div class="mt-2 text-gray-600 hidden">
+                            Our packages include luxury accommodation, daily breakfast, romantic dinner experiences, couples spa treatment, and airport transfers.
+                        </div>
+                    </button>
+                </div>
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition duration-300">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold">How long should we stay?</span>
+                            <i class="fas fa-plus text-blue-600"></i>
+                        </div>
+                        <div class="mt-2 text-gray-600 hidden">
+                            We recommend 7-10 days to fully experience the resort and activities while maintaining a relaxed pace.
+                        </div>
+                    </button>
+                </div>
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition duration-300">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold">Are meals included?</span>
+                            <i class="fas fa-plus text-blue-600"></i>
+                        </div>
+                        <div class="mt-2 text-gray-600 hidden">
+                            Different meal plans are available, from breakfast-only to all-inclusive. We can customize based on your preferences.
+                        </div>
+                    </button>
+                </div>
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition duration-300">
+                    <button class="w-full text-left px-6 py-4 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold">What activities are available?</span>
+                            <i class="fas fa-plus text-blue-600"></i>
+                        </div>
+                        <div class="mt-2 text-gray-600 hidden">
+                            Activities include snorkeling, diving, sunset cruises, spa treatments, water sports, and private dining experiences.
                         </div>
                     </button>
                 </div>
@@ -118,10 +239,10 @@
     <section id="contact" class="py-24 bg-blue-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Plan Your Paradise Getaway?</h2>
-                <p class="text-xl text-gray-600 mb-8">Contact us to start planning your dream honeymoon</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Start Planning Your Dream Honeymoon</h2>
+                <p class="text-xl text-gray-600 mb-8">Our luxury travel specialists are ready to craft your perfect Maldives experience</p>
                 <div class="flex justify-center space-x-4">
-                    <a href="mailto:info@maldivesmood.com" class="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition duration-300">
+                    <a href="mailto:info@maldivesmood.com" class="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-xl">
                         <i class="fas fa-envelope mr-2"></i>
                         Contact Us
                     </a>
@@ -133,7 +254,7 @@
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">MaldivesMood</h3>
                     <p class="text-gray-400">Your trusted partner for luxury Maldives experiences.</p>
@@ -141,18 +262,27 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact</h3>
                     <p class="text-gray-400">info@maldivesmood.com</p>
+                    <p class="text-gray-400">+960 123 4567</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Legal</h3>
+                    <div class="space-y-2">
+                        <a href="https://Florekus.github.io/maldives-honeymoon-resorts-2025-02-19-wdbpw/privacy.html" class="block text-gray-400 hover:text-white transition duration-300">Privacy Policy</a>
+                        <a href="https://Florekus.github.io/maldives-honeymoon-resorts-2025-02-19-wdbpw/terms.html" class="block text-gray-400 hover:text-white transition duration-300">Terms of Service</a>
+                        <a href="https://Florekus.github.io/maldives-honeymoon-resorts-2025-02-19-wdbpw/blog.html" class="block text-gray-400 hover:text-white transition duration-300">Blog</a>
+                    </div>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                            <i class="fab fa-facebook"></i>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110">
+                            <i class="fab fa-facebook text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                            <i class="fab fa-instagram"></i>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110">
+                            <i class="fab fa-instagram text-xl"></i>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                            <i class="fab fa-twitter"></i>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110">
+                            <i class="fab fa-twitter text-xl"></i>
                         </a>
                     </div>
                 </div>
@@ -162,5 +292,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
